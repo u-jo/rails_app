@@ -47,12 +47,12 @@ group :test, :development do
 	gem 'guard-rspec'
 	gem 'guard-spork'
 	gem 'spork'
+	gem 'capybara'
 end 
 
 group :test do 
-	gem 'capybara'
 	gem 'factory_girl_rails'
-	gem 'cucumber-rails'
+	gem 'cucumber-rails', :require => false
 	gem 'database_cleaner'
 	gem 'growl'
 end 
